@@ -7,10 +7,10 @@
 	"engines": {
 		"vscode": "^0.10.1"
 	},
-	"icon": "images/frege.svg",
+	"icon": "images/frege.png",
     "galleryBanner": {
-        "color": "#293845",
-        "theme": "dark"
+        "color": "#00ff99",
+        "theme": "light"
     },
     "keywords": [
         "language", "frege", "highlight", "syntax", "snippets"
