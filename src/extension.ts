@@ -1,8 +1,7 @@
 import * as vscode from 'vscode'; 
 
 export function activate(context: vscode.ExtensionContext) {
-    vscode.languages.setLanguageConfiguration('frege', {
-		
+	vscode.languages.setLanguageConfiguration('frege', {
 		indentationRules: {
 			// I dont know what to put here ...
 			decreaseIndentPattern: /[\]})][ \t]*$/m,
