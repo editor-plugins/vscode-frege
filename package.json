@@ -1,13 +1,13 @@
 {
-	"name": "vscode-frege",
+    "name": "vscode-frege",
     "displayName": "Frege Syntax Highlighting",
-	"description": "Syntax highlighting and snippets for the Frege programming language.",
-	"version": "1.0.0",
+    "description": "Syntax highlighting and snippets for the Frege programming language.",
+    "version": "1.0.0",
     "publisher": "zjhmale",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"icon": "images/frege.png",
+    "engines": {
+        "vscode": "^0.10.1"
+    },
+    "icon": "images/frege.png",
     "galleryBanner": {
         "color": "#00ff99",
         "theme": "light"
@@ -23,20 +23,20 @@
     },
     "bugs": {
         "url": "https://github.com/zjhmale/vscode-frege/issues",
-        "email": "zjhmale@gmail.com"    
+        "email": "zjhmale@gmail.com"
     },
     "categories": [
         "Languages",
         "Snippets"
     ],
-	"activationEvents": [
-		"onLanguage:frege"
-	],
-	"main": "./out/src/extension",
-	"contributes": {
+    "activationEvents": [
+        "onLanguage:frege"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
         "languages": [{
             "id": "frege",
-            "aliases": ["frege", "frege"],
+            "aliases": ["Frege", "frege"],
             "extensions": [".fr"]
         }],
         "grammars": [{
@@ -44,12 +44,12 @@
             "scopeName": "source.frege",
             "path": "./syntaxes/frege.tmLanguage"
         }]},
-	"scripts": {
-		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
-		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
-	},
-	"devDependencies": {
-		"typescript": "^1.6.2",
-		"vscode": "0.10.x"
-	}
+    "scripts": {
+        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+    },
+    "devDependencies": {
+        "typescript": "^1.6.2",
+        "vscode": "0.10.x"
+    }
 }
